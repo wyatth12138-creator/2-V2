@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Training and evaluation outputs
+self_checkpoints/
+runs*/
+result/
+results/
+tensorboard/
+test_outputs/
+*.log
+
+# Model weights and serialized arrays
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.npy
+*.npz
+!test_fixtures/**/*.npy
+!test_fixtures/**/*.npz
+
+# Local archives and extracted third-party scratch trees
+*.zip
+.gm_abs_read/
+
+# Local data and secrets
+data/
+.env
+.env.*
+!/.env.example

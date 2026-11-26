@@ -1,0 +1,11 @@
+# Install a compatible PyTorch and torchvision build for the host first.
+numpy>=1.24,<2
+Pillow>=9.5
+opencv-python>=4.7
+scipy>=1.9
+scikit-learn>=1.2
+scikit-image>=0.20
+pandas>=2.0
+einops>=0.6
+timm>=1.0
+safetensors>=0.4
